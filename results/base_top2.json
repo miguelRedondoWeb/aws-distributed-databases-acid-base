@@ -1,0 +1,70 @@
+{
+  "utc": "2026-11-12T17:23:31.177234+00:00",
+  "escenario": "top2",
+  "regiones_respondieron": [
+    "irlanda",
+    "virginia",
+    "tokio"
+  ],
+  "regiones_fallaron": {},
+  "parcial": false,
+  "ganador": [
+    "#anime",
+    36
+  ],
+  "ranking": [
+    [
+      "#anime",
+      36
+    ],
+    [
+      "#irishmusic",
+      36
+    ],
+    [
+      "#virginia",
+      36
+    ],
+    [
+      "#bluegrass",
+      30
+    ],
+    [
+      "#dublin",
+      30
+    ],
+    [
+      "#ramen",
+      30
+    ]
+  ],
+  "detalle_regional": {
+    "irlanda": {
+      "table": "ej7-mensajes-irlanda",
+      "messages": 100,
+      "counts": {
+        "#irishmusic": 36,
+        "#dublin": 30
+      },
+      "top_n": 2
+    },
+    "virginia": {
+      "table": "ej7-mensajes-virginia",
+      "messages": 100,
+      "counts": {
+        "#virginia": 36,
+        "#bluegrass": 30
+      },
+      "top_n": 2
+    },
+    "tokio": {
+      "table": "ej7-mensajes-tokio",
+      "messages": 100,
+      "counts": {
+        "#anime": 36,
+        "#ramen": 30
+      },
+      "top_n": 2
+    }
+  }
+}

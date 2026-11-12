@@ -1,0 +1,70 @@
+{
+  "utc": "2026-11-12T17:21:55.516823+00:00",
+  "escenario": "region_caida",
+  "regiones_respondieron": [
+    "irlanda",
+    "virginia"
+  ],
+  "regiones_fallaron": {
+    "tokio": "TooManyRequestsException: An error occurred (TooManyRequestsException) when calling the Invoke operation (reached max retries: 2): Rate Exceeded."
+  },
+  "parcial": true,
+  "ganador": [
+    "#cloud",
+    50
+  ],
+  "ranking": [
+    [
+      "#cloud",
+      50
+    ],
+    [
+      "#irishmusic",
+      36
+    ],
+    [
+      "#virginia",
+      36
+    ],
+    [
+      "#bluegrass",
+      30
+    ],
+    [
+      "#dublin",
+      30
+    ],
+    [
+      "#cork",
+      9
+    ],
+    [
+      "#richmond",
+      9
+    ]
+  ],
+  "detalle_regional": {
+    "irlanda": {
+      "table": "ej7-mensajes-irlanda",
+      "messages": 100,
+      "counts": {
+        "#irishmusic": 36,
+        "#dublin": 30,
+        "#cloud": 25,
+        "#cork": 9
+      },
+      "top_n": null
+    },
+    "virginia": {
+      "table": "ej7-mensajes-virginia",
+      "messages": 100,
+      "counts": {
+        "#virginia": 36,
+        "#bluegrass": 30,
+        "#cloud": 25,
+        "#richmond": 9
+      },
+      "top_n": null
+    }
+  }
+}
